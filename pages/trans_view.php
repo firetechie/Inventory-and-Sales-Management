@@ -111,28 +111,28 @@ include'../includes/sidebar.php';
                 <div class="col-sm-3 py-1"></div>
                 <div class="col-sm-4 py-1">
                   <h4>
-                    Cash Amount: ₱ <?php echo number_format($cash, 2); ?>
+                    Cash Amount: ₹ <?php echo number_format($cash, 2); ?>
                   </h4>
                   <table width="100%">
                     <tr>
                       <td class="font-weight-bold">Subtotal</td>
-                      <td class="text-right">₱ <?php echo $sub; ?></td>
+                      <td class="text-right">₹ <?php echo $sub; ?></td>
                     </tr>
                     <tr>
                       <td class="font-weight-bold">Less GST</td>
-                      <td class="text-right">₱ <?php echo $less; ?></td>
+                      <td class="text-right">₹ <?php echo $less; ?></td>
                     </tr>
                     <tr>
                       <td class="font-weight-bold">Net of GST</td>
-                      <td class="text-right">₱ <?php echo $net; ?></td>
+                      <td class="text-right">₹ <?php echo $net; ?></td>
                     </tr>
                     <tr>
                       <td class="font-weight-bold">Add GST</td>
-                      <td class="text-right">₱ <?php echo $add; ?></td>
+                      <td class="text-right">₹ <?php echo $add; ?></td>
                     </tr>
                     <tr>
                       <td class="font-weight-bold">Total</td>
-                      <td class="font-weight-bold text-right text-primary">₱ <?php echo $grand; ?></td>
+                      <td class="font-weight-bold text-right text-primary">₹ <?php echo $grand; ?></td>
                     </tr>
                   </table>
                 </div>
